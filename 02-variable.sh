@@ -17,5 +17,9 @@ echo value of x - ${x}
 # LHS
 # RHS  - SPECIAL VARIABLES.($1, $1, $@, $*)
 
-# shellcheck disable=SC1073
-echo Env variable - a_env - "${a_env}"
+# On cli, I send the variable using the following command
+# export a_env=1000
+echo Env variable - a_env - ${a_env}
+
+##LHS
+echo LHS variable - a_lhs - ${a_lhs}
