@@ -11,5 +11,5 @@ SAMPLE(){
 
 ## Call a function.
 ## function name.
-sample
+SAMPLE
 
