@@ -13,3 +13,6 @@ SAMPLE(){
 ## function name.
 SAMPLE
 
+source common.sh
+demo
+
