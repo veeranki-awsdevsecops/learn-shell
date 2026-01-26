@@ -43,3 +43,4 @@ echo All Values   - $*
 echo count no val - $#
 echo No Idea      - $@
 echo No idea      - $$
+echo No idea      - $?
