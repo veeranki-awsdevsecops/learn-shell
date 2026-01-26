@@ -41,3 +41,5 @@ echo First value - $1
 echo Second Value - $2
 echo All Values   - $*
 echo count no val - $#
+echo No Idea      - $@
+echo No idea      - $$
