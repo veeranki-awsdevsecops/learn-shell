@@ -17,4 +17,5 @@ echo value of x - ${x}
 # LHS
 # RHS  - SPECIAL VARIABLES.($1, $1, $@, $*)
 
-echo Env variable - a_env - ${a_env}
+# shellcheck disable=SC1073
+echo Env variable - a_env - "${a_env}"
