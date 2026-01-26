@@ -19,7 +19,25 @@ echo value of x - ${x}
 
 # On cli, I send the variable using the following command
 # export a_env=1000
+# bash 02-varibale.sh
 echo Env variable - a_env - ${a_env}
 
 ##LHS
+# on cli, I send the variable using the following command.
+# a_lhs=999 bash 02-varibale.sh
 echo LHS variable - a_lhs - ${a_lhs}
+
+## RHS
+## Special Variables
+# $1 - First value of RHS
+# $2 - Second Value of RHS
+# $# - Count Number of Varibales.
+# $* - Total Variables
+
+#on Cli, we will access the variable using the following command.
+# bash 02-variables.sh
+
+echo First value - $1
+echo Second Value - $2
+echo All Values   - $*
+echo count no val - $#
