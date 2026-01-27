@@ -44,3 +44,19 @@ echo count no val - $#
 echo No Idea      - $@
 echo No idea      - $$
 echo No idea      - $?
+
+
+# variabel in Dynamic
+# Syntax - var=$(command)
+DATE = $(date)
+echo Date - $DATE
+
+#Arithametic Substituation
+# Syntax - var=$(( expr))
+# expr = $a + $b
+a=10
+b=20
+echo arth expr - $(($a + $b))
+
+## Varibale Name Character we can use it.
+# a-z, A-Z, 0-9, _
