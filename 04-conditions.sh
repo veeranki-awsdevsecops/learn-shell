@@ -43,6 +43,6 @@ fi
 # [ -z $x ] --> This is true if x is not having any value which means it is not declared.
 
 if [ -z $x ]; then
-   echo $x is empty
+   echo x is empty - $x
 fi
 
