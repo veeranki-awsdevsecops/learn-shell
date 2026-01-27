@@ -34,7 +34,7 @@
 # [1 -eq 1] --> True if both are equal.
 
 a=10
-if [ $a = 100 ] ; then
+if [ $a -lt 100 ] ; then
   echo $a is less than 100
 fi
 
