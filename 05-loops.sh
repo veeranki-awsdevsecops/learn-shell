@@ -9,7 +9,7 @@ for fruit in apple banana orange; do
 done
 
 x=10
-while [ $x -gt 10 ]; do
+while [ $x -gt 1 ]; do
   echo something
   x=$(($x-1))
   sleep 1
